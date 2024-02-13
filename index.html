@@ -1,33 +1,52 @@
-
-<!Doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>CSS Practice</title>
-    <style>
-      address{
-        border: 200px solid palegreen;
-        padding: 1pt;
-        margin: 10pt;
-      }
-    </style>
-    <script src="Index.js"></script>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample UI Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body style="background-color:white;">  
+  <body>
+    <nav class="navbar-one flex">
+      <div class="left flex">
+      <span><H1>Logo</H1></span> 
+      </div>
+        <div class="right flex">
+            <div class="Email">
+                <i class="fas fa-envelope"></i>
+                <span>my493828@gmail.com</span>
+              </div>
+              <div class="Contact">
+                <i class="fas fa-phone"></i>
+                <span>8383008095</span>
+              </div>
+            <div class="users">
+                <i class="fas fa-user"></i>
+                <span>Login</span>
+              </div>
+        </div> 
+    </nav>
+    <nav class="nav-second flex">
+      <ul class="course">
+        <li><a href="#">C#</a></li>
+        <li><a href="#">SQL</a></li>
+        <li><a href="#">ASP.NET</a></li>
+        <li><a href="#">MVC</a></li>
+        <li><a href="#">Web API</a></li>
+      </ul>
+    </nav>
 
-  <h1 style="color: beige;">My Name is Mukesh Yadav</h1> 
+    <section class="main-content">
+      <h2>Welcome to Our Website</h2>
+      <p>This is a sample UI page created using HTML and CSS.</p>
+    </section>
 
-  <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">My Name is Mukesh Yadav</h1>
+    <footer>
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
 
-  <h1 style="font-size: 200%;">My Name is Mukesh Yadav</h1>
-
-  <h1 style="text-align: center;">My Name is Mukesh Yadav</h1>
-
-  <h1 style="border: 2px solid Tomato;">My Name is Mukesh Yadav</h1>
-
-  <address>
-    Saurya Residency,
-    Gachibowli.
-  </address>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
+
